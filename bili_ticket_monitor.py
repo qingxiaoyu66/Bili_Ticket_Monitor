@@ -15,7 +15,7 @@ init(autoreset=True)  # 初始化colorama
 
 class Config:  # pylint: disable=too-few-public-methods
     """票务监控配置参数"""
-    TICKET_ID = "请替换此处"  # 实际票务ID
+    TICKET_ID = "99367"  # 实际票务ID
     REFRESH_INTERVAL = 1     # 刷新间隔（秒）
     TIMEOUT = 50             # 请求超时时间
     MAX_RETRIES = 3          # 最大重试次数
